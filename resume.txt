@@ -1,0 +1,14 @@
+React: 
+  Experience in the development of personal and academic 
+  projects, with a strong focus on utilizing ReactJS.
+  Proficient in leveraging React's built-in management 
+  capabilities, including states, context, and Redux, to 
+  create robust and scalable applications.
+
+Nodejs: 
+  Experience in developing and deploying REST APIs using 
+  Node.js, handling HTTP response status codes, use of efficient 
+  design patterns and focus on creating clean and scalable code. 
+  In addition, I possess solid knowledge in the use of Docker, as 
+  well as experience in integrating relational (MySQL, PostgreSQL) 
+  and NoSQL databases into projects.
