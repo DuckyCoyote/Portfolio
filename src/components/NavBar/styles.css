@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ui-element {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 10px 0 10px;
+  background: #4daba6;
+  list-style: none;
+}
+
+.li-element {
+  a {
+    text-decoration: none;
+    font-family: var(--retro-font);
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -3px 1px 0px #303030;
+  }
+}

@@ -1,0 +1,24 @@
+.folders {
+  display: grid;
+  grid-template-columns: 112.5px 112.5px;
+  height: 250px;
+
+  .folder {
+    width: 70px;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+
+.experience {
+  padding: 0px 50px 25px 50px;
+}
+
+.experience-desktop {
+  display: flex;
+}
+
+.experience-file {
+  height: 500px;
+  margin: 0px 0px 0px 25px;
+}

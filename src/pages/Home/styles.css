@@ -1,0 +1,23 @@
+.presentation {
+  display: flex;
+  padding: 50px 50px 25px 50px;
+  .photo-data {
+    display: flex;
+  }
+
+  .data {
+    text-align: ceter;
+    width: 225px;
+    padding: 0px 25px 0px 0;
+  }
+
+  .photo {
+    padding: 0px 25px 25px 0px;
+    width: 225px;
+    height: 225px;
+  }
+
+  .info {
+    height: 161px;
+  }
+}

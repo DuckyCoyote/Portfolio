@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+:root {
+  --lato-font: "Lato", sans-serif;
+  --game-font: "Press Start 2P", cursive;
+  --retro-font: "Bungee", sans-serif;
+
+  --light-bg: #77aeab;
+  --light-bg-title: #4daba6;
+  --light-bg-cnt: #f5e9d1;
+  --light-fg-title: #e8e8e8;
+  --light-bg-file: #fff;
+}
+
+body {
+  font-family: var(--lato-font);
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: var(--light-bg);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  background: var(--light-bg-cnt);
+  flex-direction: column;
+  justify-content: center;
+  width: 1100px;
+}
+
+.text-file {
+  line-height: 27px;
+  background: var(--light-bg-file);
+  color: #000000;
+  border: 2px solid #191919;
+  font-size: 20px;
+  margin: 0px 0px 25px 0px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
+  -moz-box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
+  box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
+  overflow: scroll;
+}
+
+.title-file {
+  color: #003aff;
+  font-size: 20px;
+  font-family: var(--game-font);
+  margin: 5px 5px 5px 0;
+}
+
+.sub-title_container {
+  display: flex;
+  justify-content: center;
+
+  .sub-title {
+    font-size: 40px;
+    margin: 0 0 25px 0;
+    font-family: var(--retro-font);
+    text-align: center;
+    color: var(--light-fg-title);
+    background: var(--light-bg-title);
+    width: 500px;
+    text-shadow: -4px 1px 0px #303030;
+  }
+}
+
+/* Info header*/
