@@ -3,9 +3,9 @@ import { useState } from 'react';
 import portfolio from '../../data/portfolio.json';
 
 import folder from '../../assets/folder.png';
-import bank from '../../assets/bank.png';
-import ecommerce from '../../assets/ecommerce.png';
-import ownorm from '../../assets/ownorm.png';
+import bank from '../../assets/bank.webp';
+import ecommerce from '../../assets/ecommerce.webp';
+import ownorm from '../../assets/ownorm.webp';
 import github2 from '../../assets/techicons/github.webp';
 
 import javascript from '../../assets/techicons/javascript.webp';
