@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./navbar.styles.css";
 
 export default function NavBar() {
   return (
@@ -8,7 +8,7 @@ export default function NavBar() {
           <a href="#home">Home</a>
         </li>
         <li className="li-element">
-          <a href="#experience">Experience</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
       </ul>
     </nav>

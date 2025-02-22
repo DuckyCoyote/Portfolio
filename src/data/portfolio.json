@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ownorm",
+    "description": "A custom ORM built with TypeScript to seamlessly connect with MySQL and MariaDB, providing an efficient and flexible database management solution.",
+    "technologies": ["typescript", "nodejs", "mysql"],
+    "url": "http://www.github.com/DuckyCoyote"
+  },
+  {
+    "id": 2,
+    "name": "ecommerce",
+    "description": "A full-stack eCommerce platform developed with React and TypeScript on the frontend, powered by a NestJS backend and PostgreSQL database for scalable and robust performance.",
+    "technologies": ["typescript", "nodejs", "nestjs", "react", "postgres"],
+    "url": "http://www.github.com/DuckyCoyote"
+  },
+  {
+    "id": 3,
+    "name": "bank",
+    "description": "A banking application featuring an Angular frontend, a secure and high-performance backend built with Java, and a PostgreSQL database for reliable financial transactions.",
+    "technologies": ["typescript", "angular", "java", "springboot", "postgres"],
+    "url": "http://www.github.com/DuckyCoyote"
+  }
+]

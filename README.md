@@ -1,3 +1,3 @@
-## This is mi personal vintage Portfolio
+## This is mi personal personal Portfolio
 
-![image](screenshots/screen1.png)
+![image](screenshots/image.png)

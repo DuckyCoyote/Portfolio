@@ -1,0 +1,71 @@
+.presentation {
+  display: flex;
+  gap: 25px;
+  padding: 50px;
+  .photo-data {
+    display: flex;
+    gap: 25px;
+  }
+
+  .data {
+    text-align: ceter;
+    width: 225px;
+    padding: 0px;
+  }
+
+  .photo {
+    padding: 0px;
+    width: 225px;
+    height: 225px;
+  }
+
+  .info {
+    height: 161px;
+  }
+
+  .about-me {
+    line-height: 27px;
+    font-size: 22px;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .presentation {
+    flex-direction: column;
+  }
+
+  .photo-data {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .presentation {
+    max-height: 500px;
+
+    .photo {
+      width: 150px;
+      height: 150px;
+    }
+
+    .data {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  .photo-data {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description p {
+    font-size: 20px;
+  }
+}

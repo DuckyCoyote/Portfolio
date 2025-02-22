@@ -1,1 +1,1 @@
-As a full-stack web developer with expertise in React and Node, I possess a diverse skill set that enables me to craft comprehensive and functional web applications. I bring a strong proficiency in developing interactive user interfaces using React, coupled with the ability to build robust backend services through Node. Additionally, I have hands-on experience in database design and the implementation of RESTful APIs.
+Passionate full stack developer with experience in building scalable and efficient applications. 

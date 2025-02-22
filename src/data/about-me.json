@@ -3,5 +3,22 @@
   "name": "ALEJANDRO CRUZ",
   "title": "Backend Developer & Software Engineer",
   "title-file": "About Me",
-  "about-me": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptatevoluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit ommodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea"
+  "about-me": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptatevoluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit ommodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea",
+  "social": [
+    {
+      "id": 1,
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/alejandro-daniel-cruz-hern%C3%A1ndez-05bb0b200/"
+    },
+    {
+      "id": 2,
+      "name": "cv",
+      "link": "https://drive.google.com/file/d/1wdBQ6uR9asW0vyVLXiIY8ObyDLMrP4O3/view?usp=sharing"
+    },
+    {
+      "id": 3,
+      "name": "github",
+      "link": "https://github.com/DuckyCoyote"
+    }
+  ]
 }

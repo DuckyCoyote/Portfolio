@@ -1,60 +1,89 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee&display=swap');
 
 :root {
-  --lato-font: "Lato", sans-serif;
-  --game-font: "Press Start 2P", cursive;
-  --retro-font: "Bungee", sans-serif;
+  --lato-font: 'Lato', sans-serif;
+  --game-font: 'Press Start 2P', cursive;
+  --retro-font: 'Bungee', sans-serif;
+  --grand-font: 'Bangers', serif;
 
-  --light-bg: #77aeab;
-  --light-bg-title: #4daba6;
-  --light-bg-cnt: #f5e9d1;
-  --light-fg-title: #e8e8e8;
-  --light-bg-file: #fff;
+  --white-color: #fcfcfc;
+  --light-color: #fff2e8;
+  --black-color: #1f1f1f;
 }
 
 body {
   font-family: var(--lato-font);
+  background-color: var(--white-color);
+  background-image: linear-gradient(
+      transparent 49%,
+      black 50%,
+      black 51%,
+      transparent 52%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 49%,
+      black 50%,
+      black 51%,
+      transparent 52%
+    );
+  background-size: 40px 40px;
+  background-position: 0 0;
+  transition: background-position 0.1s linear;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* Animación en móviles */
+@media (max-width: 768px) {
+  @keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+
+  body {
+    animation: moveBackground 3s linear infinite alternate;
+  }
 }
 
 .main-container {
   width: 100%;
   height: 100%;
-  background: var(--light-bg);
   display: flex;
   justify-content: center;
 }
 
 .container {
   display: flex;
-  background: var(--light-bg-cnt);
   flex-direction: column;
   justify-content: center;
-  width: 1100px;
+  width: 1120px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .text-file {
+  height: 500px;
+  width: 100%;
   line-height: 27px;
-  background: var(--light-bg-file);
-  color: #000000;
-  border: 2px solid #191919;
+  background: var(--white-color);
+  color: black;
+  border: 3px solid black;
   font-size: 20px;
-  margin: 0px 0px 25px 0px;
+  margin: 0;
   padding: 30px 30px 30px 30px;
   border-radius: 5px;
-  -webkit-box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
-  -moz-box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
-  box-shadow: -7px 4px 5px 0px rgba(25, 25, 25, 1);
   overflow: scroll;
-}
-
-.title-file {
-  color: #003aff;
-  font-size: 20px;
-  font-family: var(--game-font);
-  margin: 5px 5px 5px 0;
 }
 
 .sub-title_container {
@@ -69,8 +98,22 @@ body {
     color: var(--light-fg-title);
     background: var(--light-bg-title);
     width: 500px;
-    text-shadow: -4px 1px 0px #303030;
   }
 }
 
+.card {
+  border: solid 2px black;
+  border-radius: 20px;
+  margin: 15px 15px;
+  background-color: var(--light-color);
+  -webkit-box-shadow: 7px 6px 2px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 2px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 6px 2px -1px rgba(0, 0, 0, 0.75);
+}
 /* Info header*/
+
+@media (max-width: 720px) {
+  .text-file {
+    width: auto;
+  }
+}
