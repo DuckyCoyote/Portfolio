@@ -146,6 +146,9 @@
   }
 }
 @media (max-width: 570px) {
+  .portfolio {
+    padding: 0 25px 25px 25px;
+  }
   .title-file {
     font-size: 35px;
   }
